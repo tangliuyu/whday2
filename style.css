@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background: red;
+    color: aliceblue
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    flex: 1;
+}
